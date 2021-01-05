@@ -1,0 +1,33 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/*Mobil version*/
+
+
+#video {
+    position: relative;
+    top: -2vw;
+    z-index: -1;
+    min-width: 100%;
+    width: auto;
+    height: 56, 3vw;
+    object-fit: cover;
+}
+
+
+
+/*web version*/
+
+#video {
+    position: relative;
+    top: -1vw;
+    z-index: -1;
+    min-width: 100%;
+    width: auto;
+    height: 30vw;
+    object-fit: cover;
+}
