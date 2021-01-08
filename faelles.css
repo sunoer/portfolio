@@ -1,0 +1,249 @@
+img {
+    width: 100%;
+}
+
+main {
+    position: relative;
+}
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+    height: 0;
+    margin-bottom: 5rem;
+}
+
+/*---------------------  font start  ------------------------*/
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #403222;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #403222;
+    /*    text-decoration: underline;*/
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #403222;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #403222;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    color: #403222;
+    line-height: 1.4
+}
+
+/*---------------------  font slut  ------------------------*/
+
+
+/*---------------------  Borger menu start  ------------------------*/
+
+@media (max-width: 650px) {
+
+    .menulink {
+        display: none;
+    }
+
+    .menulinklast {
+        display: none;
+    }
+
+    .burgermenu {
+        display: block;
+        float: right;
+        font-size: 25px;
+        padding: 0;
+        text-align: right;
+        height: 50px;
+        width: 50%;
+    }
+
+    #burgerknap {
+        margin-right: 2rem;
+        display: inline-block;
+        cursor: pointer;
+
+    }
+
+    .burgerknap {
+        margin-right: 2rem;
+
+    }
+
+    .hidden {
+        opacity: 0;
+        /*        transform: translateX(100%);*/
+
+    }
+
+    .burgermenulink {
+        font-family: 'Poppins', sans-serif;
+
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    #burgersection {
+        position: relative;
+        transition: transform 0.3s;
+        transform-style: top right;
+        background: #e8dbb6;
+        margin-top: 1.5rem;
+        /*        height: 35rem;*/
+        line-height: 100px;
+        z-index: 2;
+    }
+
+    #burgersection li {
+        margin-top: -0.75rem;
+        margin-right: 2rem;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .burgermenulink:link {
+        color: black;
+
+    }
+
+    .burgermenulink:visited {
+        color: black;
+    }
+
+    .burgermenulink:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 2;
+        content: "";
+        display: block;
+        height: 1.5px;
+        left: 50%;
+        position: absolute;
+        background: black;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+    }
+
+    .burgermenulinklast:hover:after {
+        width: 100%;
+        left: 0;
+    }
+}
+
+@media (min-width: 651px) {
+    .burgermenu {
+        display: none;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+
+    nav img {
+        display: inline;
+    }
+}
+
+:link {
+    color: #403222;
+}
+
+a:visited {
+    color: #403222;
+}
+
+a:hover:hover {
+    color: #eab662;
+}
+
+a:active {
+    color: white;
+}
+
+/*---------------------  Borger menu slut  ------------------------*/
+
+
+
+
+/*---------------------  Nav bar start  ------------------------*/
+
+
+nav {
+    background-color: #e8dbb6;
+
+    padding: 0.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: right;
+    margin: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5vh;
+    word-spacing: 1vw;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+
+}
+
+/*---------------------  Nav bar slut  ------------------------*/
+
+
+
+
+/*---------------------  Footer start ------------------------*/
+
+.socialMedias {
+    margin-top: -3.12rem;
+    margin-right: 1.6rem;
+}
+
+.facebook {
+    width: 30px;
+    height: 30px;
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    position: fixed;
+    word-spacing: 1vw;
+    text-align: left;
+    background-color: #e8dbb6;
+    height: 100px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: black;
+    padding: 5px;
+    line-height: 1.4;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: black;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+/*---------------------  Footer slut ------------------------*/
