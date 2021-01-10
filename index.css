@@ -3,16 +3,54 @@ img {
     height: auto;
 }
 
+main {
+    max-width: 1700px;
+    margin: 0 auto;
+}
 
+#video {
+    position: relative;
+    top: 1vw;
+    z-index: -1;
+    min-width: 100%;
+    width: auto;
+    height: 30vw;
+    object-fit: cover;
+    background-position: 50% 50%;
+}
+
+section {
+    text-align: center;
+    margin: 40px 0;
+    margin-bottom: 100px;
+}
+
+.image-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-container figure {
+    flex-grow: 1;
+}
+
+.image-container figcaption {
+    padding: 20px;
+    background: #fff;
+}
 
 /*Mobil version*/
 
 @media only screen and (max-width: 650px) {
 
+    main {
+        min-height: 300vh;
+    }
 
     #video {
         position: relative;
-        top: 0vw;
+        top: -4vw;
         z-index: -1;
         min-width: 100%;
         width: auto;
@@ -20,23 +58,19 @@ img {
         object-fit: cover;
         background-position: 50% 50%;
     }
-}
 
+    .image-container {
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    }
 
+    .image-container figure {
+        flex-basis: 90%;
+        flex-shrink: 0;
+        scroll-snap-align: center;
+    }
 
-/*web version*/
-
-
-@media only screen and (min-width: 651px) {
-
-    #video {
-        position: relative;
-        top: 3vw;
-        z-index: -1;
-        min-width: 100%;
-        width: auto;
-        height: 30vw;
-        object-fit: cover;
-        background-position: 50% 50%;
+    .image-container img {
+        margin-right: 20px;
     }
 }

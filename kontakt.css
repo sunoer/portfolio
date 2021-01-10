@@ -1,0 +1,31 @@
+.kontakt_mail {
+    display: flex;
+    margin: 57px;
+}
+
+
+.mail_ikon {
+    height: 33px;
+    width: 76px;
+    margin-top: 30px;
+}
+
+.mail_adresse {
+    padding: 35px;
+}
+
+.kontakt_mobil {
+    display: flex;
+    margin: 57px;
+}
+
+
+.mobil_ikon {
+    height: 33px;
+    width: 76px;
+    margin-top: 30px;
+}
+
+.telefonnr {
+    padding: 35px;
+}
