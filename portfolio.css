@@ -1,0 +1,8 @@
+#amager_strand {
+    position: relative;
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}

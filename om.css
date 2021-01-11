@@ -42,6 +42,7 @@ section {
     height: 30vw;
     object-fit: cover;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 @media (max-width: 650px) {
