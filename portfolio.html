@@ -17,75 +17,307 @@
     <meta name="theme-color" content="#ffffff">
 
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+
+    <header>
+
+
+        <nav class="burgermenu">
+            <div id="burgerknap">☰</div>
+            <ul style="list-style: none;" id="burgersection" class="hidden">
+                <li><a class="burgermenulink" href="index.html">Hjem</a></li>
+                <li><a class="burgermenulink" href="om.html">Om mig</a></li>
+                <li><a class="burgermenulink" href="portfolio.html">Portfolio</a></li>
+                <li><a class="burgermenulink" href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+
+
+        <nav>
+            <a class="menubillede" href="index.html"> <img class="billede_nav" src="Foto/navn_nav.svg" alt=""></a>
+            <div class="menu_web">
+                <a class="menulink" href="index.html">Hjem</a>
+                <a class="menulink" href="om.html">Om mig</a>
+                <a class="menulink" href="portfolio.html">Portfolio</a>
+                <a class="menulink" href="kontakt.html">Kontakt</a>
+            </div>
+        </nav>
+    </header>
+
     <main>
-        <header>
-
-
-            <nav class="burgermenu">
-                <div id="burgerknap">☰</div>
-                <ul style="list-style: none;" id="burgersection" class="hidden">
-                    <li><a class="burgermenulink" href="index.html">Hjem</a></li>
-                    <li><a class="burgermenulink" href="om.html">Om mig</a></li>
-                    <li><a class="burgermenulink" href="portfolio.html">Portfolio</a></li>
-                    <li><a class="burgermenulink" href="kontakt.html">Kontakt</a></li>
-                </ul>
-            </nav>
-
-
-            <nav>
-                <a class="menubillede" href="index.html"> <img class="billede_nav" src="Foto/navn_nav.svg" alt=""></a>
-                <div class="menu_web">
-                    <a class="menulink" href="index.html">Hjem</a>
-                    <a class="menulink" href="om.html">Om mig</a>
-                    <a class="menulink" href="portfolio.html">Portfolio</a>
-                    <a class="menulink" href="kontakt.html">Kontakt</a>
-                </div>
-            </nav>
-        </header>
 
         <section>
             <img id="amager_strand" src="Foto/baade.png" alt="Billede">
 
         </section>
 
+        <div id="tema_nav" class="nav_class">
+
+            <a href="#galleri_tema2">Tema 2</a>
+            <a href="#galleri_tema3">Tema 3</a>
+            <a href="#galleri_tema4">Tema 4</a>
+            <a href="#galleri_tema5">Tema 5</a>
+
+        </div>
+
+        <!--       /* ------------ Tema 2 -------------- */-->
+
+
         <section id="galleri_tema2">
 
-            <h2>Tema 2</h2>
-            <h3>Responsive_v2</h3>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam officiis quam iste excepturi quia non minus ad alias debitis fuga, numquam mollitia cupiditate temporibus modi magnam animi aspernatur sequi placeat!</p>
+            <h2>Tema 2 - Grundlæggende HTML</h2>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed cumque modi, neque! Earum adipisci quos accusamus non deserunt reprehenderit odit recusandae nam unde facere error, veniam molestias ullam sit sequi!</p>
-
+            <p>Tema 2 grundlæggende HTML omhandler introduktion til begreber, metoder, stilarter og værktøjer, som fundament for hele vores uddannelse, og dermed de kommende semestre.
+                Vi har lært om og har fået en introduktion til: layout, kompositioner, farver generelt
+                Idegenereringen, herunder moodboard, styletile, wireframe. Mest anvendte filformater. Fordelagtig overordnet dokumentstruktur. Introduktion til simpel billedredigering og optimering.
+                Vi har yderligere lært om opsætning af HTML og ved hjælp af CSS til styling af websitet, herunder font, grid, flexbox, mediaqueries samt block-inline-elementer.</p>
+            <br>
+            <p>Jeg valgt at gribe opgaven at skulle lave en responsiv webside an, ved at starte med en brainstorm som grundlag for ideer. Disse udmøntede sig i et moodboard, produktion af designelementer som icon, splash billede samt baggrund og et styletile (tildelt stilart var flatart), som dannede grundlag for opbygningen af min wireframe. Herefter påbegyndtes HTML kodningen af mit wireframe, som bliver til mit responsive site v1.
+                Slutteligt påbegynder og afslutter jeg arbejdet med CSS i Brackets, for at style siden , med fonts, farver, placeringer af alle de indeholdte elementer på slutproduktet, responsive site v2.
+            </p>
+            <br>
             <div class="section_wrapper">
+
+
                 <div class="image1">
-                    <img src="Foto/Tema_2/forside.png" alt="billede af huset udefra">
+                    <img src="Foto/Tema_2/Reol.png" alt="actionfigur" class="grow">
                 </div>
+
+
                 <div class="image2">
-                    <img src="Foto/Tema_2/farver.png" alt="Portræt ved plantevæg">
+                    <img src="Foto/Tema_2/forside.png" alt="frisoer" class="grow">
                 </div>
+
+
                 <div class="image3">
-                    <img src="Foto/Tema_2/skitse.png" alt="billede af sengen">
+                    <img src="Foto/Tema_2/splash_udkast.png" alt="interioer" class="grow">
                 </div>
+
+
                 <div class="image4">
-                    <img src="Foto/Tema_2/daybed.png" alt="huset udefra på zink siden">
+                    <img src="Foto/Tema_2/web_1_1.png" alt="interioer2" class="grow">
                 </div>
+
                 <div class="image5">
-                    <img src="Foto/Tema_2/moodboard.png" alt="Reolen sammen med arkiv skab">
+                    <img src="Foto/Tema_2/farver.png" alt="bobbytaler" class="grow">
+
                 </div>
+            </div>
+            <br>
+            <p>Min erfaring er nu helt klart at jeg i denne opgave er sprunget for hurtigt til kodningen af mit site, fremfor at bruge mere energi på at skabe et gennemarbejdet moodboard og styletile, da jeg har måtte erfare at jeg gentagne gange endte med at lave disse om, under kodningen.</p>
+
+            <section id="links">
+                <div class="section_wrapper">
+                    <h3>Link:</h3>
+                    <a href="file:///Users/susannenorgaard/Desktop/kea/02_web/04_responsive/responsive_site_v2/index.html#second_section" target="_blank">Responsive_v2</a>
+                </div>
+            </section>
+
+        </section>
+
+        <!--       /* ------------ Tema 3 -------------- */-->
+
+        <section id="galleri_tema3">
+
+
+            <h2>Tema 3 – Grundlæggende UX</h2>
+
+            <p>I tema 3 UX, har vi lært om brugergrænseflader herunder effekten af de synergier som kan skabes imellem indhold, design og produkt og ikke mindst vigtigheden af grundig research i forskellige former bl.a. interview, surveys og observation, dette med henblik på at træffe datadrevne beslutninger om eventuelle rettelser i indhold og design af brugergrænsefladen.</p>
+            <br>
+            <p>Jeg valgte at gribe opgaven om at lave en webshop med salg af t-shirts an, ved først at definere min målgruppe herefter mit produkt (art af t-shirt), samt at forholde mig til at om designet af min webshop matcher min målgruppe. Dernæst lavede jeg research hos tilfældigt udvalgte i målgruppen i form af survey (kvantitet/validitet). På baggrund af researchen udarbejdede jeg første skitse som jeg fik åben feedback i klassen. Feedback, research og skitse førte til første prototype.
+                <br>
+                Min datamængde og ide er nu på et niveau hvor jeg kan lave moodboard og styletile med henblik på det endelige produkt. Dette fører nu til prototype 2, i farver, med billeder, korrekte fonts og tekst som jeg tester vha. interview, hvorfor der er tale om kvalitativ feedback og dermed en mindre gruppe. På baggrund af denne feedback udfører jeg de sidste rettelser, til min endelige prototype.
+                Min endelige prototype pitchede jeg herefter for en gruppe i klassen.
+            </p>
+            <br>
+            <div class="section_wrapper">
+
+
                 <div class="image6">
-                    <img src="Foto/Tema_2/Reol.png" alt="Plantegning over huset">
+                    <img src="Foto/tema_3/styletile_2.png" alt="actionfigur" class="grow">
+                </div>
+
+
+                <div class="image7">
+                    <img src="Foto/tema_3/inviter_2.png" alt="frisoer" class="grow">
+                </div>
+
+
+                <div class="image8">
+                    <img src="Foto/tema_3/skitse_2.png" alt="interioer" class="grow">
+                </div>
+
+
+                <div class="image9">
+                    <img src="Foto/tema_3/ordreside_2.png" alt="interioer2" class="grow">
+                </div>
+
+                <div class="image10">
+                    <img src="Foto/tema_3/forside_2.png" alt="bobbytaler" class="grow">
+
+                </div>
+            </div>
+            <br>
+            <p>Det står tydeligt for mig at det er meget vigtigt at vælge den mest egnede research metode alt afhængigt af hvad jeg ønsker belyst. Der er meget stor forskel på mennesker og dermed er det afgørende om jeg anvender kvalitativ eller kvantitativ researchform.
+                <br>
+                Igen måtte jeg desværre konstatere at min tid brugt i forberedelsen/idegenereringen ikke står mål med hvad det med rette burde få af opmærksomhed, hvilket blev tydeligt da jeg pitchede min ide. Her stod det klart at jeg ikke var skarp nok på min ide og grundlaget herfor.
+                På denne baggrund vil jeg fremadrettet bruge mere energi og tid i min idegenerering, være sikker i mit valg af research metode og gennemarbejde moodboard og styletile.
+            </p>
+
+            <section id="links">
+                <div class="section_wrapper">
+                    <h3>Link:</h3>
+                    <a href="http://sunoer.dk/kea/06_portfolio/Video/03_01_05_ide_susanne_noergaard.pdf" target="_blank">Ide</a>
+                    <a href="https://xd.adobe.com/view/a54b1957-5fbc-4786-a821-e6b723760d07-f018/?fullscreen&hints=off" target="_blank">Endelig prototype</a>
+                    <a href="http://sunoer.dk/kea/06_portfolio/Video/03_03_03_pitch_susanne_noergaard.pdf" target="_blank">Pitch</a>
+                </div>
+            </section>
+
+        </section>
+
+        <!--       /* ------------ Tema 4 -------------- */-->
+
+        <section id="galleri_tema4">
+
+
+            <h2>Tema 4 – Grundlæggende Animation</h2>
+
+            <p>I tema 4 grundlæggende animation har vi lært om JAVA script som er et kodningssprog der bl.a. tillader interaktive funktioner, dernæst Illustrator som er velegnet til at tegne spilelementer da Illustrator arbejder med Vektor filformat og dermed kan skaleres til alle størrelser og opløsninger uden elementet pixelerer. Vi blev ydermere undervist i anvendelsen af aktivitetsdiagrammer samt udarbejdelsen af Statemachinediagram, som basalt set er et diagram over alle de mulige forekomster af processer som følge af aktiviteter (klik). Et spil uden lydeffekter er ikke meget ved, hvorfor vi lærte om optagelse og behandling af lyde i Audition.
+            </p>
+            <br>
+            <p>Jeg valgte at gribe opgaven at skulle producere et spil an, ved at gentage flere af de tidligere anvendte processer i opstartsfasen, hvilket betyder at jeg idegenerede vha. skitseringer af både figurer, spilelementer og aktivitetsdiagram. Dernæst test i klassen af spil idé og design ift. ønskede målgruppe. Figurer, spilelementer, baggrund og forgrund produceres i Illustrator, dette dokumenteres i assetlisten og i designdokumentationen. Statemachine diagrammet udarbejdes og danner strukturen for aktiviteterne, som dermed ligger til grund for kodningen af spillet. Slutteligt optager, vælger og producerer jeg lyde til dels baggrundslyd, samt til alle aktiviteterne.
+                <br>
+                Slutproduktet blev testet i grupper og feedback fra både medstuderende og underviser foregik online.
+            </p>
+            <br>
+            <div class="section_wrapper">
+
+
+                <div class="image11">
+                    <img src="Foto/tema_4/spilskaerm.png" alt="actionfigur" class="grow">
+                </div>
+
+
+                <div class="image12">
+                    <img src="Foto/tema_4/spil_elementer.png" alt="frisoer" class="grow">
+                </div>
+
+
+                <div class="image13">
+                    <img src="Foto/tema_4/state_machine.png" alt="interioer" class="grow">
+                </div>
+
+
+                <div class="image14">
+                    <img src="Foto/tema_4/skitser.png" alt="interioer2" class="grow">
+                </div>
+
+                <div class="image15">
+                    <img src="Foto/tema_4/skitser_2.png" alt="bobbytaler" class="grow">
+
                 </div>
             </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor veniam, nostrum illum expedita soluta. Possimus nesciunt deleniti itaque, qui explicabo mollitia officiis facere aspernatur perferendis, vero dolorum reiciendis repudiandae debitis.</p>
+            <div class="ramme">
+                <video id="video" poster="" autoplay muted loop playsinline>
+                    <source src="http://sunoer.dk/kea/06_portfolio/Video/video_spil.mp4">
+                </video>
+            </div>
+
+
+            <br><br><br>
+            <p>I retroperspektiv kan jeg se at jeg ikke er til freds med min start- og slutskærme, da de designmæssigt ikke matcher selve spillet til fulde, men med den forhåndenværende tid til opgaven mener jeg at have prioriteret korrekt, ved at fokusere på indholdet af spillet.
+                <br>
+                Grundlæggende har processen med produktionen af spillet være markant bedre angrebet end de tidligere opgaver, herunder grundigere forberedelse inden produktion.
+
+            </p>
+
+            <section id="links">
+                <div class="section_wrapper">
+                    <h3>Link:</h3>
+                    <a href="http://sunoer.dk/kea/06_portfolio/Video/Spil_Susanne_Noergaard.pdf" target="_blank">Assetliste og designdokumentation</a>
+                    <a href="http://sunoer.dk/kea/04_animation/spil/index.html" target="_blank">Individuelt spil</a>
+                </div>
+            </section>
+
         </section>
 
+        <!--       /* ------------ Tema 5 -------------- */-->
+
+        <section id="galleri_tema5">
 
 
+            <h2>Tema 5 – Grundlæggende indhold</h2>
+
+            <p>I tema 5 grundlæggende indhold, har vi lært om immaterielle rettigheder ved feks. billeder, video og musik, samt forskellige optage metoder og redskaber. Vi er blevet introduceret til brugen af digitale medie platforme som eksempelvis Youtube o.a. Vi har lært om brugen af hhv. Photoshop som er velegnet til billedredigering herunder beskæring og styling, samt Premiere Pro som er velegnet til videoredigering, som eksempelvis klipning og b-rolls. Som redskab til at skabe fremdrift og struktur i gruppearbejdet blev vi introduceret til SCRUM som projektstyringsredskab.
+            </p>
+            <br>
+            <p>Vi valgte i gruppen at gribe opgaven at skulle redesigne en eksisterende hjemmeside an, ved først og fremmest at finde dels en passende hjemmeside og dernæst en ejer af denne som både havde tid og lyst til at deltage. Da en passende side og ejer var fundet, valgte vi først at definere hvilke procestrin et redesign ville indeholde, hvilket vi visualiserede i et SCRUM board. Da opgaven bl.a. indeholdte krav om et videointerview blev dette foretaget som det næste, hvorefter dette blev klippet og redigeret i Premiere Pro.
+                <br>
+                Næste skridt var en gruppe brainstorm på designideer, hvilket betød at vi producerede 6 designforslag/mockups i hhv. Photoshop og Illustrator, hvorefter disse blev sendt til ejer for at modtage ejers feedback og eventuelle kommentarer eller ønsker.
+                <br>
+                På baggrund af ejers feedback blev en design retning valgt og vi fordelte derefter hvilke sider på ejers eksisterende hjemmeside de respektive gruppemedlemmer skulle producere, herunder både design og kodning.
+                Slutteligt sammensatte vi hver vores sider til en samlet hjemmeside og denne blev præsenteret for andre grupper i klassen.
+
+
+            </p>
+            <br>
+            <div class="section_wrapper">
+
+
+                <div class="image16">
+                    <img src="Foto/Tema_2/Reol.png" alt="actionfigur" class="grow">
+                </div>
+
+
+                <div class="image17">
+                    <img src="Foto/Tema_2/forside.png" alt="frisoer" class="grow">
+                </div>
+
+
+                <div class="image18">
+                    <img src="Foto/Tema_2/splash_udkast.png" alt="interioer" class="grow">
+                </div>
+
+
+                <div class="image19">
+                    <img src="Foto/Tema_2/web_1_1.png" alt="interioer2" class="grow">
+                </div>
+
+                <div class="image20">
+                    <img src="Foto/Tema_2/farver.png" alt="bobbytaler" class="grow">
+
+                </div>
+            </div>
+
+            <div class="bobby">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/AW7eukiiE3s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <br>
+            <p>Det at finde en passende hjemmeside og ejer til projektet viste sig sværere end først antaget, dels pga. Corona situationen samt det faktum at ejers tidsanvendelse og involvering er anseelig. Gruppens tidsanvendelse på de forskellige elementer i opgaven har vi ikke disponeret optimalt, eksempelvis lagde vi meget vægt på videointerviewet, hvilket ikke var den bærende del af projektet. Anvendelsen af SCRUM board i dette projekt fik ikke den ønskede effekt, hvilket medførte en relativ ustruktureret tilgang hvorfor jeg ikke oplever at vi kom fyldestgørende igennem alle led i processen og vores resultat dermed ikke blev som ønsket.
+                <br>
+                Jeg oplevede derimod at involveringen af ejer ift. designretning skabte stor værdi for både ejer og gruppen.
+            </p>
+
+            <section id="links">
+                <div class="section_wrapper">
+                    <h3>Link:</h3>
+                    <a href="https://www.youtube.com/watch?v=D-0uGmsmaqw" target="_blank">Pilotprojekt</a>
+                    <a href="file:///Users/susannenorgaard/Desktop/kea/05_content/redesign/index.html" target="_blank">Redesign og temadokumentation</a>
+                </div>
+            </section>
+
+        </section>
 
 
     </main>
@@ -100,7 +332,7 @@
     </footer>
 
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Til toppen</button>
 
     <script src="script.js"></script>
 </body>

@@ -45,6 +45,9 @@ section {
     margin-top: 20px;
 }
 
+/* ------------ Mobil version -------------- */
+
+
 @media (max-width: 650px) {
     img {
         width: 35%;

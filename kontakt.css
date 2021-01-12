@@ -104,14 +104,14 @@ section {
     gap: 2rem;
     align-items: start;
     padding: 1.5rem;
-    background: #3a243f;
-    color: #fff;
+    background: #fffbf4;
+    color: #403222;
     border-radius: 8px;
 }
 
 article {
     padding-right: 2rem;
-    border-right: 2px solid #fb28a8;
+    border-right: 2px solid #eab662;
 }
 
 /* Forms CSS */
