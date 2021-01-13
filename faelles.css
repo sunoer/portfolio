@@ -79,7 +79,7 @@ p {
 }
 
 a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.25rem;
     color: #403222;
     line-height: 1.4;
@@ -389,6 +389,6 @@ footer {
 }
 
 #myBtn:hover {
-    background-color: #555;
+    color: #eab662;
     /* Add a dark-grey background on hover */
 }

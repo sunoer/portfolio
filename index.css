@@ -45,7 +45,7 @@ section {
 @media only screen and (max-width: 650px) {
 
     main {
-        min-height: 300vh;
+        min-height: 180vh;
     }
 
     #video {
