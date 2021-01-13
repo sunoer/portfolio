@@ -360,7 +360,6 @@ main {
     .bobby {
         position: relative;
         top: 4vw;
-        z-index: -1;
         min-width: 60%;
         height: 10vw;
         margin-left: 340px;
