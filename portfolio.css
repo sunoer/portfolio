@@ -13,6 +13,7 @@ main {
     margin-top: 10px;
 }
 
+/* --------- mobil ------------- */
 
 @media (max-width: 650px) {
     #amager_strand {
@@ -137,16 +138,6 @@ main {
         grid-row: 2/3;
     }
 
-    /*
-#links .section_wrapper {
-    display: inline-flex;
-    text-align: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 0px;
-}
-*/
-
     /* ------------ Tema 3 -------------- */
 
 
@@ -198,14 +189,6 @@ main {
         grid-row: 2/3;
     }
 
-    /*
-#links .section_wrapper {
-    text-align: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 0px;
-}
-*/
 
     /* ------------ Tema 4 -------------- */
 

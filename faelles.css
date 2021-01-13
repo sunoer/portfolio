@@ -32,7 +32,6 @@ header {
 }
 
 
-
 /*---------------------  font start  ------------------------*/
 
 h1 {
@@ -94,30 +93,10 @@ figcaption {
     color: #eab662;
 }
 
-/*---------------------  font slut  ------------------------*/
-
 
 /*---------------------  Borger menu start  ------------------------*/
 
 @media (max-width: 650px) {
-
-    /*
-
-
-    .menubillede {
-        float: left;
-        margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 60px;
-        cursor: pointer;
-    }
-
-    .billede_nav {
-        width: 400px;
-        height: 50px;
-    }
-*/
-
 
     .menulink {
         display: none;
@@ -252,11 +231,6 @@ a:active {
     color: white;
 }
 
-
-
-
-
-
 /*---------------------  Nav bar start  ------------------------*/
 
 
@@ -281,8 +255,6 @@ nav a {
     color: #403222;
 }
 
-
-
 .menu_web {
     margin-top: 30px;
 }
@@ -294,24 +266,6 @@ nav a {
     cursor: pointer;
     text-decoration: none;
 }
-
-/*
-.menubillede {
-    float: left;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 60px;
-    cursor: pointer;
-}
-
-.billede_nav {
-    width: 400px;
-    height: 50px;
-}
-*/
-
-
-
 
 
 /*---------------------  Footer start ------------------------*/
@@ -332,7 +286,7 @@ nav a {
 }
 
 footer {
-/*    position: fixed;*/
+    /*    position: fixed;*/
     word-spacing: 1vw;
     text-align: left;
     background-color: #fffbf4;
