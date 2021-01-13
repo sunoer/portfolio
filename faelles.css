@@ -332,7 +332,7 @@ nav a {
 }
 
 footer {
-    position: fixed;
+/*    position: fixed;*/
     word-spacing: 1vw;
     text-align: left;
     background-color: #fffbf4;
