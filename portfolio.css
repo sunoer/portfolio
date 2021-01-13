@@ -32,8 +32,8 @@ main {
     }
 
     #flyvende_drage {
-        width: 15vw;
-        height: 12vw;
+        width: 24vw;
+        height: 21vw;
         position: relative;
         top: 0%;
         left: 38%;
@@ -241,7 +241,7 @@ main {
         grid-row: 2/3;
     }
 
-    #links .section_wrapper {
+    .links {
         text-align: center;
         grid-template-columns: 1fr;
         /*    grid-template-rows: 1fr 1fr;*/
@@ -359,11 +359,19 @@ main {
     .bobby {
         position: relative;
         top: 4vw;
-        z-index: -1;
         min-width: 60%;
-        height: 30vw;
-        margin-left: 340px;
+        height: 10vw;
+        margin-left: 480px;
     }
+
+    /*
+
+    iframe {
+        width: 100%;
+        object-fit: cover;
+        height: inherit;
+    }
+*/
 
     #flyvende_drage {
         width: 19vw;

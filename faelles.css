@@ -75,6 +75,7 @@ p {
     font-size: 1.15rem;
     color: #403222;
     line-height: 1.4;
+    margin-top: 90px;
 }
 
 a {
@@ -144,7 +145,6 @@ figcaption {
     #burgersection {
         position: relative;
         transition: transform 0.3s;
-        transform-style: top right;
         background: #fffbf4;
         margin-top: 1.5rem;
         /*        height: 35rem;*/
@@ -170,7 +170,7 @@ figcaption {
 
     .burgermenulink:after {
         background: none repeat scroll 0 0 transparent;
-        bottom: 2;
+        bottom: 0;
         content: "";
         display: block;
         height: 1.5px;
