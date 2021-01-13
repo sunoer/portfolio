@@ -356,22 +356,16 @@ main {
         display: grid;
     }
 
+
     .bobby {
         position: relative;
         top: 4vw;
+        z-index: -1;
         min-width: 60%;
         height: 10vw;
-        margin-left: 480px;
+        margin-left: 340px;
+        margin-bottom: 160px;
     }
-
-    /*
-
-    iframe {
-        width: 100%;
-        object-fit: cover;
-        height: inherit;
-    }
-*/
 
     #flyvende_drage {
         width: 19vw;
